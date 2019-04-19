@@ -95,8 +95,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE87A3F2269E6F1006C65CD /* Build configuration list for PBXNativeTarget "FlutterTest" */;
 			buildPhases = (
-				ECE87A422269E7F7006C65CD /* ShellScript */,
 				6F6AEC01BB9775C4943EFA1D /* [CP] Check Pods Manifest.lock */,
+				ECE87A422269E7F7006C65CD /* ShellScript */,
 				ECE87A292269E6EF006C65CD /* Sources */,
 				ECE87A2A2269E6EF006C65CD /* Frameworks */,
 				ECE87A2B2269E6EF006C65CD /* Resources */,
@@ -191,6 +191,10 @@
 				"${PODS_ROOT}/Target Support Files/Pods-FlutterTest/Pods-FlutterTest-frameworks.sh",
 				"${PODS_ROOT}/../../../flutter-comment-wall/.ios/Flutter/engine/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/connectivity/connectivity.framework",
+				"${BUILT_PRODUCTS_DIR}/package_info/package_info.framework",
+				"${BUILT_PRODUCTS_DIR}/url_launcher/url_launcher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -198,6 +202,10 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/connectivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/package_info.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
